@@ -1,0 +1,32 @@
+html,
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items>li {
+    padding: 10px;
+}
+
+.footer {
+    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}

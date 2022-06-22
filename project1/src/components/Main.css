@@ -1,0 +1,42 @@
+.main {
+    padding: 57px 27px;
+    color: white;
+}
+
+.main::after {
+    content: "";
+    background-image: url("../assets/react-logo.svg");
+    background-repeat: no-repeat;
+    background-position-x: 133%;
+    background-position-y: 75%;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts>li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--facts>li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}

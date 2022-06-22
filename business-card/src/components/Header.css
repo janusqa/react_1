@@ -1,0 +1,9 @@
+.business-card_header {
+    background-image: url(../assets/profile-picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 317px;
+    background-position-y: -40px;
+}

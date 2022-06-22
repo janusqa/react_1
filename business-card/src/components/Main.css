@@ -1,0 +1,88 @@
+.business-card_info {
+    padding: 40px;
+    background-color: #F5F5F5;
+}
+
+.business-card_info>h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.business-card_info>p {
+    color: #4A4E74;
+    margin: 0;
+    font-size: small;
+}
+
+.business-card_info>h3 {
+    margin-bottom: 5px;
+}
+
+.business-card_info>h4 {
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    color: #F47D27;
+    text-align: center;
+}
+
+.business-card_info-website {
+    text-align: center;
+}
+
+.business-card_info--contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.businss-card_info--contact_button {
+    border-style: solid;
+    border-width: thin;
+    border-color: #D1D5DB;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.button-linkedin {
+    background-color: #297FE5;
+    color: white;
+}
+
+.button-email {
+    background-color: white;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+    *zoom: 1;
+}
