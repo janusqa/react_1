@@ -8,14 +8,20 @@
 }
 
 .article figure {
-    min-width: 125px;
-
+    position: relative;
+    width: 325px;
+    height: 168px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
+
+
 .article figure img {
-    height: 168px;
-    width: 100%;
-    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    max-height: 100%;
 }
 
 .card--location {
