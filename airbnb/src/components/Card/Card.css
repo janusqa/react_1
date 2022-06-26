@@ -1,0 +1,48 @@
+.card {
+    position: relative;
+    font-size: 12px;
+    width: 176px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+}
+
+.card .card--price {
+    font-weight: bold;
+}
+
+.card figure img {
+    max-width: 100%;
+}
+
+.card figcaption {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: stretch;
+}
+
+.card .card--rating-star {
+    margin-right: 2px;
+    color: fuchsia;
+    height: 14px;
+}
+
+.grey {
+    color: #918E9B
+}
+
+.card--title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card .card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-weight: bold;
+}

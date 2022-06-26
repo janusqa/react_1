@@ -1,0 +1,57 @@
+.article {
+    /* max-width: 470; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.article figure {
+    min-width: 125px;
+
+}
+
+.article figure img {
+    height: 168px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card--location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card--location img {
+    margin-right: 5px;
+}
+
+.card--location-country {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.card--location-googlemaps {
+    margin-left: 15px;
+}
+
+.article summary {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.article a {
+    color: #918E9B
+}
+
+.article h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.article h4 {
+    margin-bottom: 5px;
+}

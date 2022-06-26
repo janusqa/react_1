@@ -1,0 +1,48 @@
+.hero .container {
+    max-width: 550px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero .image--grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 230px;
+    margin-bottom: 30px;
+}
+
+.hero .image--grid div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero .image--grid div:nth-of-type(1) {
+    justify-content: center;
+
+}
+
+.hero .image--grid div:nth-of-type(3) {
+    justify-content: end;
+}
+
+
+.hero .image--grid div:nth-of-type(5) {
+    justify-content: end;
+}
+
+.hero .image--grid div img {
+    padding: 5px
+}
+
+.hero .hero--text {
+    max-width: 70%;
+}
