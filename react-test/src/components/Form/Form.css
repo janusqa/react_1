@@ -1,0 +1,36 @@
+input[type="text"],
+input[type="email"] {
+    margin-bottom: 15px;
+    height: 30px;
+    text-indent: 10px;
+    border-style: solid;
+    border-color: #444;
+    border-inline-start-width: 1px;
+    border-inline-end-width: 1px;
+    border-block-start-width: 1px;
+    border-block-end-width: 1px;
+    border-radius: 5px;
+    display: block;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-inline-end: 0.75rem;
+}
+
+textarea {
+    padding: 10px;
+    margin-block-end: 15px;
+    border-style: solid;
+    border-color: #444;
+    border-inline-start-width: 1px;
+    border-inline-end-width: 1px;
+    border-block-start-width: 1px;
+    border-block-end-width: 1px;
+    border-radius: 5px;
+    display: block;
+}
+
+fieldset {
+    padding: 5px;
+}

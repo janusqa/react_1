@@ -1,0 +1,27 @@
+.meme--header {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    block-size: 65px;
+    padding: 20px
+}
+
+
+.meme--header-logo {
+    block-size: 100%;
+    margin-inline-end: 6px;
+}
+
+.meme--header h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-inline-end: auto;
+}
+
+.meme--header h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
