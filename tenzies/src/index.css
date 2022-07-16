@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin-inline: 0;
+    margin-block: 0;
+    padding-inline: 0;
+    padding-block: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #0B2434;
+    padding: 20px;
+}
